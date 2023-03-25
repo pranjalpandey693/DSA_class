@@ -21,9 +21,9 @@ int part(int arr[], int low ,int high)
         swap(arr[i],arr[j]);
 
        }
+    }
        swap(arr[low],arr[j]);
        return j;
-    }
     
    
 }
